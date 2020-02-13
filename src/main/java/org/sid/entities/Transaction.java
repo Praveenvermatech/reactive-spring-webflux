@@ -11,7 +11,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.time.Instant;
 @Document
-@Data @AllArgsConstructor @NoArgsConstructor @ToString
+@Data
 public class Transaction {
     @Id
     private String id;

@@ -19,14 +19,24 @@
     </properties>
 
     <dependencies>
+    
+   		<!-- MongoDb reactive dependencies -->
+    
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-mongodb-reactive</artifactId>
         </dependency>
+        
+        <!-- End -->
+        
+        <!-- WebFlux dependencies -->
+        
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-webflux</artifactId>
         </dependency>
+        
+        <!-- End -->
 
         <dependency>
             <groupId>org.projectlombok</groupId>
@@ -54,12 +64,32 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+    
+   		 <!-- Swagger UI -->
+
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger2</artifactId>
+			<version>2.6.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger-ui</artifactId>
+			<version>2.6.1</version>
+		</dependency> 
+		
+		<!-- End -->
+   
         <dependency>
             <groupId>io.projectreactor</groupId>
             <artifactId>reactor-test</artifactId>
             <scope>test</scope>
         </dependency>
     </dependencies>
+    
+    
+    
 
     <build>
         <plugins>
