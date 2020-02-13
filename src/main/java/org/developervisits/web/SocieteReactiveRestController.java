@@ -1,10 +1,10 @@
-package org.sid.web;
+package org.developervisits.web;
 
 import java.time.Duration;
 import java.util.List;
 
-import org.sid.dao.SocieteRepository;
-import org.sid.entities.Societe;
+import org.developervisits.dao.SocieteRepository;
+import org.developervisits.entities.Societe;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.DeleteMapping;

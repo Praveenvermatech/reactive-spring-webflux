@@ -12,7 +12,7 @@
         <tr>
             <th>ID</th><th>Name</th><th>Price</th>
         </tr>
-        <!--/*@thymesVar id="societes" type="java.util.List<org.sid.entities.Societe>"*/-->
+        <!--/*@thymesVar id="societes" type="java.util.List<org.developervisits.entities.Societe>"*/-->
         <tr th:each="s:${societes}">
             <td th:text="${s.id}"></td>
             <td th:text="${s.name}"></td>

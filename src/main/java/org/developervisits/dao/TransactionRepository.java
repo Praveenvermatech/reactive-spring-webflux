@@ -1,7 +1,7 @@
-package org.sid.dao;
+package org.developervisits.dao;
 
-import org.sid.entities.Societe;
-import org.sid.entities.Transaction;
+import org.developervisits.entities.Societe;
+import org.developervisits.entities.Transaction;
 import org.springframework.data.mongodb.repository.ReactiveMongoRepository;
 import reactor.core.publisher.Flux;
 

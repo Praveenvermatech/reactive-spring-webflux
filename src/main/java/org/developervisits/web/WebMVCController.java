@@ -1,7 +1,7 @@
-package org.sid.web;
+package org.developervisits.web;
 
-import org.sid.dao.SocieteRepository;
-import org.sid.dao.TransactionRepository;
+import org.developervisits.dao.SocieteRepository;
+import org.developervisits.dao.TransactionRepository;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;

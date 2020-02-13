@@ -1,4 +1,4 @@
-package org.sid.entities;
+package org.developervisits.entities;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;

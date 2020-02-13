@@ -1,10 +1,11 @@
-package org.sid.web;
+package org.developervisits.web;
 
 import lombok.Data;
-import org.sid.dao.SocieteRepository;
-import org.sid.dao.TransactionRepository;
-import org.sid.entities.Societe;
-import org.sid.entities.Transaction;
+
+import org.developervisits.dao.SocieteRepository;
+import org.developervisits.dao.TransactionRepository;
+import org.developervisits.entities.Societe;
+import org.developervisits.entities.Transaction;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.reactive.function.client.WebClient;
